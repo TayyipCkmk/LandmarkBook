@@ -12,6 +12,12 @@
 		E199B46025349CFF005E18AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E199B45E25349CFF005E18AA /* Main.storyboard */; };
 		E199B46225349D00005E18AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E199B46125349D00005E18AA /* Assets.xcassets */; };
 		E199B46525349D00005E18AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E199B46325349D00005E18AA /* LaunchScreen.storyboard */; };
+		E199B47125373B29005E18AA /* tacmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E199B46C25373B28005E18AA /* tacmahal.jpg */; };
+		E199B47225373B29005E18AA /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E199B46D25373B28005E18AA /* colosseum.jpg */; };
+		E199B47325373B29005E18AA /* eiffel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E199B46E25373B28005E18AA /* eiffel.jpg */; };
+		E199B47425373B29005E18AA /* galata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E199B46F25373B29005E18AA /* galata.jpg */; };
+		E199B47525373B29005E18AA /* pisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E199B47025373B29005E18AA /* pisa.jpg */; };
+		E199B47725375047005E18AA /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199B47625375047005E18AA /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		E199B46125349D00005E18AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E199B46425349D00005E18AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E199B46625349D00005E18AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E199B46C25373B28005E18AA /* tacmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacmahal.jpg; sourceTree = "<group>"; };
+		E199B46D25373B28005E18AA /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		E199B46E25373B28005E18AA /* eiffel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel.jpg; sourceTree = "<group>"; };
+		E199B46F25373B29005E18AA /* galata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galata.jpg; sourceTree = "<group>"; };
+		E199B47025373B29005E18AA /* pisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pisa.jpg; sourceTree = "<group>"; };
+		E199B47625375047005E18AA /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		E199B45925349CFF005E18AA /* LandmarkBook */ = {
 			isa = PBXGroup;
 			children = (
+				E199B46D25373B28005E18AA /* colosseum.jpg */,
+				E199B46E25373B28005E18AA /* eiffel.jpg */,
+				E199B46F25373B29005E18AA /* galata.jpg */,
+				E199B47025373B29005E18AA /* pisa.jpg */,
+				E199B46C25373B28005E18AA /* tacmahal.jpg */,
 				E199B45A25349CFF005E18AA /* AppDelegate.swift */,
 				E199B45C25349CFF005E18AA /* ViewController.swift */,
+				E199B47625375047005E18AA /* imageViewController.swift */,
 				E199B45E25349CFF005E18AA /* Main.storyboard */,
 				E199B46125349D00005E18AA /* Assets.xcassets */,
 				E199B46325349D00005E18AA /* LaunchScreen.storyboard */,
@@ -122,8 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E199B47325373B29005E18AA /* eiffel.jpg in Resources */,
 				E199B46525349D00005E18AA /* LaunchScreen.storyboard in Resources */,
+				E199B47425373B29005E18AA /* galata.jpg in Resources */,
+				E199B47225373B29005E18AA /* colosseum.jpg in Resources */,
+				E199B47525373B29005E18AA /* pisa.jpg in Resources */,
 				E199B46225349D00005E18AA /* Assets.xcassets in Resources */,
+				E199B47125373B29005E18AA /* tacmahal.jpg in Resources */,
 				E199B46025349CFF005E18AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E199B47725375047005E18AA /* imageViewController.swift in Sources */,
 				E199B45D25349CFF005E18AA /* ViewController.swift in Sources */,
 				E199B45B25349CFF005E18AA /* AppDelegate.swift in Sources */,
 			);
